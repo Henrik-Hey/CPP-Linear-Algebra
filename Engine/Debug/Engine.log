@@ -1,0 +1,19 @@
+﻿  Source.cpp
+c:\users\henrik\desktop\projects\engine\engine\source.cpp(27): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+window.obj : error LNK2019: unresolved external symbol _glewInit@0 referenced in function "private: bool __thiscall graphics::window::Window::init(void)" (?init@Window@window@graphics@@AAE_NXZ)
+window.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function "private: bool __thiscall graphics::window::Window::init(void)" (?init@Window@window@graphics@@AAE_NXZ)
+window.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function "public: __thiscall graphics::window::Window::Window(char const *,int,int)" (??0Window@window@graphics@@QAE@PBDHH@Z)
+window.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function "private: bool __thiscall graphics::window::Window::init(void)" (?init@Window@window@graphics@@AAE_NXZ)
+window.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function "public: bool __thiscall graphics::window::Window::closed(void)const " (?closed@Window@window@graphics@@QBE_NXZ)
+window.obj : error LNK2019: unresolved external symbol _glfwGetFramebufferSize referenced in function "public: void __thiscall graphics::window::Window::update(void)" (?update@Window@window@graphics@@QAEXXZ)
+window.obj : error LNK2019: unresolved external symbol _glfwSetWindowUserPointer referenced in function "private: bool __thiscall graphics::window::Window::init(void)" (?init@Window@window@graphics@@AAE_NXZ)
+window.obj : error LNK2019: unresolved external symbol _glfwGetWindowUserPointer referenced in function "void __cdecl graphics::window::cursor_position_callback(struct GLFWwindow *,double,double)" (?cursor_position_callback@window@graphics@@YAXPAUGLFWwindow@@NN@Z)
+window.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function "public: void __thiscall graphics::window::Window::update(void)" (?update@Window@window@graphics@@QAEXXZ)
+window.obj : error LNK2019: unresolved external symbol _glfwSetKeyCallback referenced in function "private: bool __thiscall graphics::window::Window::init(void)" (?init@Window@window@graphics@@AAE_NXZ)
+window.obj : error LNK2019: unresolved external symbol _glfwSetMouseButtonCallback referenced in function "private: bool __thiscall graphics::window::Window::init(void)" (?init@Window@window@graphics@@AAE_NXZ)
+window.obj : error LNK2019: unresolved external symbol _glfwSetCursorPosCallback referenced in function "private: bool __thiscall graphics::window::Window::init(void)" (?init@Window@window@graphics@@AAE_NXZ)
+window.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function "private: bool __thiscall graphics::window::Window::init(void)" (?init@Window@window@graphics@@AAE_NXZ)
+window.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function "public: void __thiscall graphics::window::Window::update(void)" (?update@Window@window@graphics@@QAEXXZ)
+C:\Users\Henrik\Desktop\Projects\Engine\Dependencies\GLEW\lib\glew32s.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+C:\Users\Henrik\Desktop\Projects\Engine\Dependencies\GLFW\lib-vc2015\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+C:\Users\Henrik\Desktop\Projects\Engine\Debug\Engine.exe : fatal error LNK1120: 14 unresolved externals

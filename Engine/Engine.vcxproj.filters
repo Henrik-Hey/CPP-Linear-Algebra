@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\math">
+      <UniqueIdentifier>{9ff3952c-20de-4979-b989-cb479be69f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math\vectors">
+      <UniqueIdentifier>{18bd14c8-43b4-4212-aff0-b2e4cf260170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math\matrices">
+      <UniqueIdentifier>{129a827f-98bc-4d06-bfa6-3bed876cfceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphics">
+      <UniqueIdentifier>{4f8e9691-b306-476d-87df-4dfa4c196b8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphics\window">
+      <UniqueIdentifier>{88653d4a-2ff5-49fa-a974-8ff2c6f17fc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{8116776c-2f48-4d22-8c36-63bce8961604}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>Source Files\graphics\window</Filter>
+    </ClCompile>
+    <ClCompile Include="vec2.cpp">
+      <Filter>Source Files\math\vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="vec3.cpp">
+      <Filter>Source Files\math\vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="vec4.cpp">
+      <Filter>Source Files\math\vectors</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vec2.h">
+      <Filter>Source Files\math\vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h">
+      <Filter>Source Files\graphics\window</Filter>
+    </ClInclude>
+    <ClInclude Include="vec3.h">
+      <Filter>Source Files\math\vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="vec4.h">
+      <Filter>Source Files\math\vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="mat4.h">
+      <Filter>Source Files\math\matrices</Filter>
+    </ClInclude>
+    <ClInclude Include="math_func.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="fileUtils.h">
+      <Filter>Source Files\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
